@@ -10,7 +10,6 @@ public class DataContext : DbContext
     {
         Database.EnsureCreated();
     }
-
     public DbSet<User> Users { get; set; }
     public DbSet<Product> Products { get; set; }
     public DbSet<ProductInfo> ProductInfos { get; set; }
